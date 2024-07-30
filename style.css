@@ -189,25 +189,25 @@ body>div:first-of-type>div>div>div>div> div, .blocks>div>div>div>div>div>div, .b
 }
 /*cores*/
 .research h4{
-    color:var(--research);
+    color:var(--secondary-research);
 }
 .research > div{
     background-color: var(--research);
 }
 .ux h4{
-    color:var(--ux);
+    color:var(--secondary-ux);
 }
 .ux>div{
     background-color: var(--ux);
 }
 .ui h4{
-    color: var(--ui);
+    color: var(--secondary-ui);
 }
 .ui>div{
     background-color: var(--ui);
 }
 .dev h4{
-    color:var(--dev);
+    color:var(--secondary-dev);
 }
 .dev> div{
     background-color: var(--dev);
