@@ -276,9 +276,15 @@ footer .blocks p, footer .blocks a{
     padding-top:50px;
 }
 /*video*/
-video{
-    width: 100%;
-    border-radius:20px;
+.blocks>div.video{
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content: center;
+}
+iframe{
+width:90%;
+height:70vh;
 }
 
 /*sombra*/
@@ -310,6 +316,9 @@ footer .blocks>div>div>div img{
     body>div{
         padding: 0px 120px;
     }
+    iframe{
+        height:50vh;
+        }
 }
 
 @media (max-width: 1115px){
@@ -326,6 +335,9 @@ footer .blocks>div>div>div img{
      body> div:nth-of-type(2)> div{
         width: 47%; 
      }
+     iframe{
+        height:40vh;
+        }
 }
 @media (max-width: 1050px){
     :root{
@@ -415,6 +427,9 @@ footer .blocks>div>div>div img{
     #complex_digital_interface>div:first-of-type{
         width:100%;
     }
+    iframe{
+        height:30vh;
+        }
 }
 @media (max-width: 550px){
     header{
@@ -466,4 +481,5 @@ footer .blocks>div>div>div img{
     body > footer > div > img{
         width:100%;
     }
+}
 }
