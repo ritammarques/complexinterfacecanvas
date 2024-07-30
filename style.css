@@ -1,7 +1,8 @@
 :root{
     --background:#EEF6FF;
     --text: #3F4247;
-    --blue:#1399ED;
+    --blue:#074064;
+    --light-blue:#1399ED;
     --white:#ffffff;
     --grey:#9AA3B4;
 
@@ -127,7 +128,7 @@ button{
     gap:10px;
 }
 button:hover{
-    background-color:var(--research);
+    background-color:var(--light-blue);
     cursor: pointer;
 }
 header> img, footer>img{
