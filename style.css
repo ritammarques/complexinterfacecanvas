@@ -130,7 +130,7 @@ button{
 button:hover{
     background-color:var(--light-blue);
     cursor: pointer;
-    text-decoration:none;
+    text-decoration-line:none;
 }
 header> img, footer>img{
     width:220px;
