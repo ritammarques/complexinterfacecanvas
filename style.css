@@ -114,6 +114,9 @@ p{
     line-height: normal;
     letter-spacing: -0.096px; 
 }
+nav> a{
+    text-decoration-line: none;
+}
 
 button{
     border-radius:20px;
